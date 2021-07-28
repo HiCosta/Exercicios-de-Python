@@ -1,0 +1,7 @@
+print('--------------------------------------------------')
+aluno = str(input('Nome do aluno: '))
+nota = float(input('Insira a primeira nota: '))
+nota2 = float(input('Insira a segunda nota: '))
+print('---------------------------------------------------')
+print('A média de', aluno, 'é {}'.format((nota+nota2)/2))
+print('---------------------------------------------------')
